@@ -1,10 +1,12 @@
+# Created by https://www.toptal.com/developers/gitignore/api/nuxtjs,vuejs,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=nuxtjs,vuejs,visualstudiocode
 
-# Created by https://www.toptal.com/developers/gitignore/api/nextjs,vuejs,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=nextjs,vuejs,visualstudiocode
+### Nuxtjs ###
+# Nuxt build
+.nuxt
 
-### NextJS ###
-# Next build dir
-.next/
+# Nuxt generate
+dist
 
 ### VisualStudioCode ###
 .vscode/*
@@ -35,4 +37,11 @@ dist/
 npm-debug.log
 yarn-error.log
 
-# End of https://www.toptal.com/developers/gitignore/api/nextjs,vuejs,visualstudiocode
+node_modules
+*.log
+.nuxt
+nuxt.d.ts
+.output
+.env
+
+# End of https://www.toptal.com/developers/gitignore/api/nuxtjs,vuejs,visualstudiocode
